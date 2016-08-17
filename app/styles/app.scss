@@ -1,0 +1,22 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  padding-left: 5px;
+  // color: #b30000;
+
+}

@@ -1,0 +1,17 @@
+{ "posts": [{
+    "author": "Rachael",
+    "title": "Makeup Stuff",
+    "content": "Blah blah blah",
+    "image": "http://manrepeller.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/man-repeller-national-lipstick-day-29.jpg"
+  }, {
+    "author": "Lauren",
+    "title": "Makeup Junk",
+    "content": "Blah blah blah",
+    "image": "https://s-media-cache-ak0.pinimg.com/736x/49/75/d7/4975d74528de988271a14678ee5fc860.jpg"
+    }, {
+    "author": "Rachael",
+    "title": "Makeup Stuff 2",
+    "content": "Blah blah blah",
+    "image": "http://www.studiophireno.com/wp-content/uploads/2013/05/bad-make-up-1.jpeg"
+  }]
+}

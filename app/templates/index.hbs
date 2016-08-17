@@ -1,0 +1,8 @@
+<h1>Blog Posts</h1>
+
+<ul>
+  {{#each model as |post|}}
+  {{entry-tile entry=entry}}
+     {{post.author}} {{post.title}} {{post.content}} {{post.image}}
+  {{/each}}
+</ul>

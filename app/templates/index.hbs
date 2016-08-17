@@ -2,7 +2,8 @@
 
 <ul>
   {{#each model as |post|}}
-  {{entry-tile entry=entry}}
-     {{post.author}} {{post.title}} {{post.content}} {{post.image}}
+    {{entry-tile post=post destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+{{new-post save2="save3"}}

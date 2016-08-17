@@ -1,4 +1,8 @@
 <li>
   {{post.author}}{{post.title}} {{post.content}}
-  <p><img src={{post.image}} ></p>
+  <p><img src={{post.image}}></p>
+
+
+
+  <button {{action 'delete' post}}>Delete Post</button>
 </li>

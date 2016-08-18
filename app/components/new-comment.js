@@ -12,7 +12,7 @@ export default Ember.Component.extend({
         visitor: this.get('visitor'),  // coming from parent component
         post: this.get('post'),
       };
-      debugger;
+  
       console.log("Hi" + params.post.title);
       this.set('addNewComment', false);
       this.sendAction('saveComment2', params);

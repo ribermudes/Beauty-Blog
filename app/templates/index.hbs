@@ -1,9 +1,6 @@
-
-
 <ul>
   {{#each model as |post|}}
-    {{entry-tile post=post destroyPost="destroyPost"}}
+    <li>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</li>
   {{/each}}
 </ul>
-
-{{new-post save2="save3"}}
+{{new-post savePost="savePost"}}

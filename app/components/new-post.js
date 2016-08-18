@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     postFormShow() {
       this.set('addNewPost', true);
     },
-    save1() {
+    savePost() {
       var params = {
         author: this.get('author'),
         title: this.get('title'),
@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
       };
       this.set('addNewPost', false);
-      this.sendAction('save2', params);
+      this.sendAction('savePost', params);
     }
   }
 });

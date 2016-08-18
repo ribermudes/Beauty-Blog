@@ -1,8 +1,7 @@
-<li>
-  {{post.author}}{{post.title}} {{post.content}}
-  <p><img src={{post.image}}></p>
-
-
-
-  <button {{action 'delete' post}}>Delete Post</button>
-</li>
+<h2> Comments for {{post.title}}</h2>
+<!--
+<ul>
+  {{#each post.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul> -->

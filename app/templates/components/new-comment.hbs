@@ -1,0 +1,21 @@
+{{#if addNewComment}}
+<h1>New Comment</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        {{input value=comment id="comment"}}
+      </div>
+
+      <div class="form-group">
+        <label for="visitor">Your Name</label>
+        {{input value=visitor id="visitor"}}
+      </div>
+
+
+      <button {{action 'saveComment'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'commentFormShow'}}>New Comment</button>
+  {{/if}}

@@ -5,8 +5,8 @@ export default Ember.Route.extend({
     return this.store.findRecord('post', params.post_id);
   } ,
   actions: {
-    savePost(params) {
-      var newPost = this.store.createRecord('post', params);
+    saveComment3(params) {
+      var newComment = this.store.createRecord('comment', params);
       var post = params.post;
       post.get('comment').addObject(newComment);
       newComment.save().then(function() {
